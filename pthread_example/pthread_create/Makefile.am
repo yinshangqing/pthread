@@ -1,0 +1,4 @@
+AUTOMAKE_OPTIONS=foreign
+bin_PROGRAMS=pthread_create
+pthread_create_SOURCES=pthread_create.c
+pthread_create_LDFLAGS=-lpthread
